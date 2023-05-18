@@ -1,0 +1,66 @@
+.gradle
+build/
+gradle
+gradlew
+gradlew.bat
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+# Changes to be committed:
+# (use "git rm --cached <file>..." to unstage)
+#     new file:   .gitignore
+#     new file:   build.gradle.kts
+#     new file:   gradle.properties
+#     new file:   settings.gradle.kts
+#     new file:   src/main/kotlin/Main.kt
+#     new file:   src/main/kotlin/ObtainSourceCode.kt
+#     new file:   src/main/kotlin/client/CLI.kt
+#     new file:   src/main/kotlin/core/Metadata.kt
+# 
+# Changes not staged for commit:
+# (use "git add <file>..." to update what will be committed)
+# (use "git restore <file>..." to discard changes in working directory)
+#     modified:   .idea/gradle.xml
+#     modified:   .idea/misc.xml
+#     modified:   .idea/sourcegraph.xml
+#     modified:   .idea/workspace.xml
+#     modified:   build.gradle.kts
+#     modified:   src/main/kotlin/Main.kt
+#     modified:   src/main/kotlin/ObtainSourceCode.kt
+#     modified:   src/main/kotlin/client/CLI.kt
+#     modified:   src/main/kotlin/core/Metadata.kt
